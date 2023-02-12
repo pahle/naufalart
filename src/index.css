@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Fraunces", serif;
+}
+
+@layer base {
+  .boxWidth {
+    @apply xl:max-w-7xl w-full;
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .flexStart {
+    @apply flex justify-center items-start;
+  }
+  .paddingX {
+    @apply sm:px-16 px-6;
+  }
+  .paddingY {
+    @apply sm:py-16 py-6;
+  }
+  .padding {
+    @apply sm:px-16 px-6 sm:py-12 py-4;
+  }
+  .marginX {
+    @apply sm:mx-16 mx-6;
+  }
+  .marginY {
+    @apply sm:my-16 my-6;
+  }
+  .section {
+    @apply flex md:flex-row flex-col paddingY;
+  }
+  .sectionReverse {
+    @apply flex md:flex-row flex-col-reverse paddingY;
+  }
+  .sectionImg {
+    @apply flex-1 flex flexCenter md:ml-10 ml-0 md:mt-0 mt-10 relative;
+  }
+  .sectionImgReverse {
+    @apply flex-1 flex flexCenter md:mr-10 mr-0 md:mt-0 mt-10 relative;
+  }
+  .sectionInfo {
+    @apply flex-1 flexStart flex-col
+  }
+}
