@@ -5,6 +5,7 @@
 
 * {
   font-family: "Fraunces", serif;
+  scroll-behavior: smooth;
 }
 
 @layer base {
@@ -39,10 +40,10 @@
     @apply flex md:flex-row flex-col-reverse paddingY;
   }
   .sectionImg {
-    @apply flex-1 flex flexCenter md:ml-10 ml-0 md:mt-0 mt-10 relative;
+    @apply flex-1 flex flexCenter  md:mt-0 mt-10 relative;
   }
   .sectionImgReverse {
-    @apply flex-1 flex flexCenter md:mr-10 mr-0 md:mt-0 mt-10 relative;
+    @apply flex-1 flex flexCenter  md:mt-0 mt-10 relative;
   }
   .sectionInfo {
     @apply flex-1 flexStart flex-col

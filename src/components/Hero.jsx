@@ -3,6 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="section sm:py-10 items-center gap-20">
+      
       <div className="w-full flex flex-col text-start text-black">
         <div>
           <p className="md:text-xl text-lg text-secondary">
@@ -15,15 +16,15 @@ const Hero = () => {
             <p className="text-secondary text-xl">(01)</p>
           </div>
         </div>
-        <div className="w-[150px]">
-          <div className="border-2 border-black/50 rounded-lg p-2">
-            <div className="border-2 border-black/50 rounded-lg p-2 -mb-5 -mr-5">
-              <p className="text-center mb-3 mr-2">
+        <a className="w-[150px]" href="#benefit">
+          <div className="border-2 border-secondary rounded-lg p-2">
+            <div className="border-2 border-secondary rounded-lg p-2 -mb-5 -mr-5">
+              <p className="text-center text-secondary mb-3 mr-2">
                 Get Started
               </p>
             </div>
           </div>
-        </div>
+        </a>
         <img
           src="./icons/arrow1.svg"
           alt="arrow"
