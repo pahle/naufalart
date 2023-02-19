@@ -4,12 +4,20 @@ export const navLinks = [
     link: "home",
   },
   {
+    name: "Benefits",
+    link: "benefits",
+  },
+  {
+    name: "Products",
+    link: "products",
+  },
+  {
     name: "About",
     link: "about",
   },
   {
-    name: "Services",
-    link: "services",
+    name: "Testimonials",
+    link: "testimonials",
   },
   {
     name: "Contact",
@@ -33,4 +41,40 @@ export const benefits = [
     description:
       "Produk yang kuat akan menghasilkan nilai tambah di setiap tahunnya karena dapat dijual kembali di kemudian hari dengan penambahan nilai dari sudut seni alamnya.",
   },
+];
+
+export const products = [
+    {
+        name: "Kursi",
+        image: "./images/product1.JPG",
+    },
+    {
+        name: "Meja",
+        image: "./images/product2.JPG",
+    },
+    {
+        name: "Lemari",
+        image: "./images/product3.JPG",
+    },
+    {
+        name: "Kasur",
+        image: "./images/product4.JPG",
+    },
+    {
+        name: "Lemari Pakaian",
+        image: "./images/product1.JPG",
+    },
+    {
+        name: "Lemari Buku",
+        image: "./images/product2.JPG",
+    },
+    {
+        name: "Lemari Dapur",
+        image: "./images/product3.JPG",
+    },
+    {
+        name: "Lemari Dapur",
+        image: "./images/product3.JPG",
+    },
+
 ];

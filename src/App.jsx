@@ -1,5 +1,10 @@
 import React from "react";
-import { Navbar, Hero, Benefits } from "./components";
+import {
+  Navbar,
+  Hero,
+  Benefits,
+  Products,
+} from "./components";
 
 const App = () => {
   return (
@@ -35,6 +40,7 @@ const App = () => {
         <div className="paddingX flexStart">
           <div className="boxWidth">
             <Benefits />
+            <Products />
           </div>
         </div>
       </div>

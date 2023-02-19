@@ -6,6 +6,7 @@
 * {
   font-family: "Fraunces", serif;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @layer base {
@@ -22,7 +23,7 @@
     @apply sm:px-16 px-6;
   }
   .paddingY {
-    @apply sm:py-16 py-6;
+    @apply sm:py-24 py-6;
   }
   .padding {
     @apply sm:px-16 px-6 sm:py-12 py-4;
@@ -31,7 +32,7 @@
     @apply sm:mx-16 mx-6;
   }
   .marginY {
-    @apply sm:my-16 my-6;
+    @apply sm:my-24 my-6;
   }
   .section {
     @apply flex md:flex-row flex-col paddingY;
@@ -48,4 +49,11 @@
   .sectionInfo {
     @apply flex-1 flexStart flex-col
   }
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
 }

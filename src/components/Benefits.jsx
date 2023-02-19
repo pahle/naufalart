@@ -3,9 +3,9 @@ import { benefits } from "../constants";
 
 const Benefits = () => {
   return (
-    <section id="benefit" className="paddingY flexCenter flex-col md:h-screen">
+    <section id="benefits" className="paddingY flexCenter flex-col">
       <div className="w-full flex justify-center">
-        <h1 className="text-7xl my-5">
+        <h1 className="text-7xl md:mb-14 mb-8">
           The Benefits of Naufal Art
         </h1>
         <p className="text-secondary text-xl">(02)</p>
@@ -13,7 +13,7 @@ const Benefits = () => {
       <div className="flex md:flex-row flex-col gap-20">
         <div className="sectionImgReverse -md:hidden">
           <img
-            src="./images/wood.jpg"
+            src="./images/grid.png"
             alt="wood"
             className="h-[80vh] w-full object-cover rounded-lg"
           />
@@ -21,6 +21,7 @@ const Benefits = () => {
         <div className="sectionInfo justify-center">
           {benefits.map((benefit, index) => (
             <div
+            key={index}
               className={`flex flex-col h-full justify-center py-6 border-secondary ${
                 index == benefits.length - 1
                   ? "border-b-0"
