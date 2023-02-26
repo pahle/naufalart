@@ -2,8 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="section sm:py-10 items-center gap-20">
-      
+    <section className="section 2xl:py-10 py-6 items-center md:gap-20 gap-12 relative">
       <div className="w-full flex flex-col text-start text-black">
         <div>
           <p className="md:text-xl text-lg text-secondary">
@@ -28,10 +27,10 @@ const Hero = () => {
         <img
           src="./icons/arrow1.svg"
           alt="arrow"
-          className="w-20 absolute bottom-5 -md:hidden"
+          className="w-20 absolute xl:bottom-2 2xl:bottom-8 -xl:hidden -left-6"
         />
       </div>
-      <div className="w-full h-[80vh] rounded-xl overflow-hidden">
+      <div className="w-full xl:h-[80vh] h-[75vh] rounded-xl overflow-hidden">
         <video
           src="./video/hero.MP4"
           className="w-[646px] h-full object-cover "

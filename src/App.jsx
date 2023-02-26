@@ -4,6 +4,9 @@ import {
   Hero,
   Benefits,
   Products,
+  About,
+  Quality,
+  Shipping,
 } from "./components";
 
 const App = () => {
@@ -15,17 +18,8 @@ const App = () => {
           alt="lines"
           className="absolute w-full h-full opacity-25 z-[-20] object-cover"
         />
-        {/* <div className="absolute bottom-[-500px] -rotate-90 opacity-20 text-7xl">
-          <h1 className="">Naufal Art</h1>
-          <h1 className="-mt-5 opacity-50">
-            Naufal Art
-          </h1>
-          <h1 className="-mt-5 opacity-25">
-            Naufal Art
-          </h1>
-        </div> */}
 
-        <div className="flexCenter">
+        <div className="flexCenter paddingX">
           <div className="boxWidth">
             <Navbar />
           </div>
@@ -41,6 +35,14 @@ const App = () => {
           <div className="boxWidth">
             <Benefits />
             <Products />
+          </div>
+        </div>
+
+        <div className="paddingX flexStart">
+          <div className="boxWidth">
+            <About />
+            <Quality />
+            <Shipping />
           </div>
         </div>
       </div>

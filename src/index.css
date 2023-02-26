@@ -23,7 +23,7 @@
     @apply sm:px-16 px-6;
   }
   .paddingY {
-    @apply sm:py-24 py-6;
+    @apply sm:py-16 py-6;
   }
   .padding {
     @apply sm:px-16 px-6 sm:py-12 py-4;

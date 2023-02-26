@@ -5,7 +5,7 @@ const Benefits = () => {
   return (
     <section id="benefits" className="paddingY flexCenter flex-col">
       <div className="w-full flex justify-center">
-        <h1 className="text-7xl md:mb-14 mb-8">
+        <h1 className="2xl:text-7xl text-6xl md:mb-14 mb-8">
           The Benefits of Naufal Art
         </h1>
         <p className="text-secondary text-xl">(02)</p>
@@ -15,7 +15,7 @@ const Benefits = () => {
           <img
             src="./images/grid.png"
             alt="wood"
-            className="h-[80vh] w-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
           />
         </div>
         <div className="sectionInfo justify-center">
@@ -32,11 +32,11 @@ const Benefits = () => {
                 <p className="text-secondary pr-2">
                   (0{index + 1})
                 </p>
-                <h1 className="text-4xl">
+                <h1 className="2xl:text-4xl text-3xl">
                   {benefit.title}
                 </h1>
               </div>
-              <p className="text-xl pt-4 text-justify">
+              <p className="2xl:text-xl text-lg pt-4 text-justify">
                 {benefit.description}
               </p>
             </div>

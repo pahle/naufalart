@@ -11,11 +11,11 @@ const Products = () => {
 
       <div className="grid md:grid-cols-4 grid-cols-2 gap-10">
         {products.map((product, index) => (
-          <div key={index} className="relative">
+          <div key={index} className="relative rounded-xl overflow-hidden">
             <img
               src={product.image}
               alt="product"
-              className=" aspect-square"
+              className=" aspect-square object-cover"
             />
             <div className="absolute top-0 bottom-0 left-0 right-0 h-full w-full opacity-40 ease-in-out duration-500 bg-black hover:opacity-0">
               <h1
