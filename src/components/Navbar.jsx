@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`w-full flex py-6 justify-between items-center ${toggle ? "shadow-sm" : "shadow-none"
+    <nav className={`w-full flex py-6 justify-between items-center -md:paddingX -md:bg-primary ${toggle ? "-md:shadow-sm" : "-md:shadow-md"
       }`}>
       <a href="/" className="flex flex-row justify-center items-center gap-4">
         <img
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <div
           className={`${toggle ? " opacity-100" : "opacity-0"
-            } flex p-6 bg-white absolute -right-0 w-full my-2 min-w-[200px] justify-center ease-in-out transition-all duration-300 z-[10] top-[96px] shadow-lg`}
+            } flex p-6 bg-primary absolute -right-0 w-full my- min-w-[200px] justify-center ease-in-out transition-all duration-300 z-[10] top-[91px] shadow-lg`}
         >
           <ul className="list-none flex flex-col justify-end items-center">
             {navLinks.map((nav, index) => (

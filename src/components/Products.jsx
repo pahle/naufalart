@@ -3,7 +3,10 @@ import { products } from "../constants";
 
 const Products = () => {
   return (
-    <section id="products" className="paddingY">
+    <section id="products" className="paddingY relative">
+      <div className="absolute opacity-10 2xl:-right-[340px] 2xl:-top-[155px] -right-24 -top-24">
+        <h1 className="2xl:text-[250px] text-[200px]">Naufal Art</h1>
+      </div>
       <div className="w-full flex md:mb-14 mb-8">
         <h1 className="text-7xl">Our Products</h1>
         <p className="text-secondary text-xl">(03)</p>
@@ -11,7 +14,10 @@ const Products = () => {
 
       <div className="grid md:grid-cols-4 grid-cols-2 gap-10">
         {products.map((product, index) => (
-          <div key={index} className="relative rounded-xl overflow-hidden">
+          <div
+            key={index}
+            className="relative rounded-xl overflow-hidden"
+          >
             <img
               src={product.image}
               alt="product"

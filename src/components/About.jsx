@@ -6,10 +6,12 @@ const About = () => {
       {/* <div className="border-2 border-secondary p-8 absolute -bottom-16 left-[50%] -translate-x-[50%] rounded-xl">
         <div className="border-2 border-secondary p-7 rounded-xl relatives"></div>
       </div> */}
-      <div className="sectionInfo border-t-2 border-l-2 border-secondary rounded-tl-xl">
+      <div className="sectionInfo border-t-2 border-l-2 border-secondary/50 rounded-tl-xl">
         <div className="2xl:p-28 p-16 text-justify flex flex-col items-center">
-          <h1 className="text-4xl text-center">About Us</h1>
-          <hr className="border-[2px] border-secondary w-1/5 mt-2 mb-4 rounded-full" />
+          <div className="w-full flex justify-center mb-6">
+            <h1 className="text-4xl">About Us</h1>
+            <p className="text-secondary text-xl">(04)</p>
+          </div>
           <p className="2xl:text-xl text-lg">
             Naufal Art merupakan perusahaan pribadi yang
             berdiri pada tahun 2004. Perusahaan ini bergerak

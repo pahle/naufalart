@@ -30,10 +30,13 @@ const Hero = () => {
           className="w-20 absolute xl:bottom-2 2xl:bottom-8 -xl:hidden -left-6"
         />
       </div>
-      <div className="w-full xl:h-[80vh] h-[75vh] rounded-xl overflow-hidden">
+      <div className="w-full xl:h-[80vh] h-[75vh] overflow- relative">
+        <div className="absolute w-full h-full border-4 border-secondary rounded-xl -top-5 -right-5 z-[-10]">
+
+        </div>
         <video
           src="./video/hero.MP4"
-          className="w-[646px] h-full object-cover "
+          className="w-[646px] h-full object-cover rounded-xl"
           autoPlay
           loop
           muted

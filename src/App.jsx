@@ -19,7 +19,7 @@ const App = () => {
           className="absolute w-full h-full opacity-25 z-[-20] object-cover"
         />
 
-        <div className="flexCenter paddingX">
+        <div className="flexCenter md:paddingX">
           <div className="boxWidth">
             <Navbar />
           </div>
@@ -39,7 +39,12 @@ const App = () => {
         </div>
 
         <div className="paddingX flexStart">
-          <div className="boxWidth">
+          <div className="boxWidth relative overflow-hidden">
+          <img
+            src="./icons/lines.svg"
+            alt="lines"
+            className="absolute top-16 w-full h-[calc(100%-5vh)] opacity-25 z-[-20] object-cover"
+          />
             <About />
             <Quality />
             <Shipping />

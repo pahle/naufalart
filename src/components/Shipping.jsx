@@ -3,11 +3,9 @@ import React from 'react'
 const Shipping = () => {
   return (
     <section className="flex sm:mb-16 mb-6">
-      <div className="sectionInfo border-l-2 border-b-2 border-secondary rounded-bl-xl">
-        <div className="2xl:p-28 p-16 text-justify">
-          <h1 className="text-4xl text-center mb-8">
-            Shipping National and Globally
-          </h1>
+      <div className="sectionInfo border-l-2 border-b-2 border-secondary/50 rounded-bl-xl">
+        <div className="2xl:p-28 p-16 text-justify flex flex-col items-center">
+            <h1 className="text-4xl text-center mb-6">Shipping National and Globally</h1>
           <p className="2xl:text-xl text-lg">
             Sejak berdiri, Naufal Art berorientasi pada pasar ekspor. Negara tujuan ekspor kami yaitu  Korea, Dubai, Inggris, dan Amerika.
             <br /> <br />

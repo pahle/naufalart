@@ -11,7 +11,7 @@ module.exports = {
         '-sm': {max: '639px'},
       },
       colors: {
-        primary: "#75634D",
+        primary: "#FFFCF9",
         secondary: "#797979",
         "off-white": "#F5F5F5",
       },
