@@ -15,7 +15,7 @@ const Hero = () => {
             <p className="text-secondary text-xl">(01)</p>
           </div>
         </div>
-        <a className="w-[150px]" href="#benefit">
+        <a className="w-[150px]" href="#benefits">
           <div className="border-2 border-secondary rounded-lg p-2">
             <div className="border-2 border-secondary rounded-lg p-2 -mb-5 -mr-5">
               <p className="text-center text-secondary mb-3 mr-2">
@@ -31,9 +31,9 @@ const Hero = () => {
         />
       </div>
       <div className="w-full xl:h-[80vh] h-[75vh] overflow- relative">
-        <div className="absolute w-full h-full border-4 border-secondary rounded-xl -top-5 -right-5 z-[-10]">
+        {/* <div className="absolute w-full h-full border-4 border-secondary rounded-xl -top-5 -right-5 z-[-10]">
 
-        </div>
+        </div> */}
         <video
           src="./video/hero.MP4"
           className="w-[646px] h-full object-cover rounded-xl"

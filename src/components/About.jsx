@@ -9,9 +9,9 @@ const About = () => {
       <div className="sectionInfo border-t-2 border-l-2 border-secondary/50 rounded-tl-xl">
         <div className="2xl:p-28 p-16 text-justify flex flex-col items-center">
           <div className="w-full flex justify-center mb-6">
-            <h1 className="text-4xl">About Us</h1>
+            <h1 className="text-4xl pr-2">About Us</h1>
             <p className="text-secondary text-xl">(04)</p>
-          </div>
+        </div>
           <p className="2xl:text-xl text-lg">
             Naufal Art merupakan perusahaan pribadi yang
             berdiri pada tahun 2004. Perusahaan ini bergerak

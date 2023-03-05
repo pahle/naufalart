@@ -8,7 +8,7 @@ const Products = () => {
         <h1 className="2xl:text-[250px] text-[200px]">Naufal Art</h1>
       </div>
       <div className="w-full flex md:mb-14 mb-8">
-        <h1 className="text-7xl">Our Products</h1>
+        <h1 className="text-7xl pr-2">Our Products</h1>
         <p className="text-secondary text-xl">(03)</p>
       </div>
 

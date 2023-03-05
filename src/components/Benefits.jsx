@@ -5,7 +5,7 @@ const Benefits = () => {
   return (
     <section id="benefits" className="paddingY flexCenter flex-col">
       <div className="w-full flex justify-center">
-        <h1 className="2xl:text-7xl text-6xl md:mb-14 mb-8">
+        <h1 className="2xl:text-7xl text-6xl md:mb-14 mb-8 pr-2">
           The Benefits of Naufal Art
         </h1>
         <p className="text-secondary text-xl">(02)</p>
@@ -22,7 +22,7 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <div
             key={index}
-              className={`flex flex-col h-full justify-center py-6 border-secondary ${
+              className={`flex flex-col h-full justify-center py-6 border-secondary/70 ${
                 index == benefits.length - 1
                   ? "border-b-0"
                   : "border-b-2"

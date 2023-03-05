@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`w-full flex py-6 justify-between items-center -md:paddingX -md:bg-primary ${toggle ? "-md:shadow-sm" : "-md:shadow-md"
+    <nav className={`w-full flex py-6 justify-between items-center -md:paddingX ${toggle ? "bg-primary" : "bg-transparent"
       }`}>
       <a href="/" className="flex flex-row justify-center items-center gap-4">
         <img

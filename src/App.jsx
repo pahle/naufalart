@@ -7,6 +7,7 @@ import {
   About,
   Quality,
   Shipping,
+  Products2
 } from "./components";
 
 const App = () => {
@@ -34,7 +35,8 @@ const App = () => {
         <div className="paddingX flexStart">
           <div className="boxWidth">
             <Benefits />
-            <Products />
+            {/* <Products /> */}
+            <Products2 />
           </div>
         </div>
 
