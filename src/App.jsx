@@ -45,7 +45,7 @@ const App = () => {
           <img
             src="./icons/lines.svg"
             alt="lines"
-            className="absolute top-16 w-full h-[calc(100%-5vh)] opacity-25 z-[-20] object-cover"
+            className="absolute top-16 w-full h-[calc(100%-5vh)] opacity-25 z-[-20] object-cover -xl:hidden"
           />
             <About />
             <Quality />

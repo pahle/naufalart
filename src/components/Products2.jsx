@@ -34,33 +34,38 @@ const Products2 = () => {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    dots: false,
     focusOnSelect: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
-        {
-          breakpoint: 1440,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          }
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
         },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: true,
+          nextArrow: "",
+          prevArrow: "",
         },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-        }
-      ]
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: true,
+          nextArrow: "",
+          prevArrow: "",
+        },
+      },
+    ],
   };
   return (
     <section className="section xl:gap-20 gap-10 w-full">
@@ -84,7 +89,9 @@ const Products2 = () => {
                 alt="product"
                 className="w-full xl:h-[350px] h-[250px] object-cover rounded-lg"
               />
-              <h1 className="my-4 text-lg text-center">{product.name}</h1>
+              <h1 className="my-4 text-lg text-center">
+                {product.name}
+              </h1>
             </div>
           ))}
         </Slider>

@@ -3,16 +3,16 @@ import React from "react";
 const Quality = () => {
   return (
     <section className="flex justify">
-      <div className="sectionImg">
+      <div className="sectionImg -xl:hidden">
         <img
           src="./images/about3.jpg"
           alt="product"
           className="w-full h-full aspect-square object-cover rounded-tr-sm"
         />
       </div>
-      <div className="sectionInfo border-r-2 border-secondary/50">
-        <div className="2xl:p-28 p-16 text-justify flex flex-col items-center">
-          <h1 className="text-4xl mb-6 text-center">
+      <div className="sectionInfo xl:border-r-2 border-secondary/50">
+        <div className="2xl:p-28 xl:p-16 text-justify flex flex-col xl:items-center">
+          <h1 className="text-4xl mb-6 xl:text-center text-right">
             Quality and Design
           </h1>
 
