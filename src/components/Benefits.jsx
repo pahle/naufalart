@@ -4,8 +4,8 @@ import { benefits } from "../constants";
 const Benefits = () => {
   return (
     <section id="benefits" className="paddingY flexCenter flex-col">
-      <div className="w-full flex justify-center">
-        <h1 className="2xl:text-7xl text-6xl md:mb-14 mb-8 pr-2">
+      <div className="w-full flex justify-center md:mb-14 mb-8">
+        <h1 className="2xl:text-7xl text-6xl  pr-2">
           The Benefits of Naufal Art
         </h1>
         <p className="text-secondary text-xl">(02)</p>

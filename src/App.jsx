@@ -7,7 +7,8 @@ import {
   About,
   Quality,
   Shipping,
-  Products2
+  Products2,
+  Testimonials,
 } from "./components";
 
 const App = () => {
@@ -50,6 +51,12 @@ const App = () => {
             <About />
             <Quality />
             <Shipping />
+          </div>
+        </div>
+
+        <div className="paddingX flexStart">
+          <div className="boxWidth">
+            <Testimonials />
           </div>
         </div>
       </div>
