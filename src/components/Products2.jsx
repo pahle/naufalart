@@ -68,7 +68,12 @@ const Products2 = () => {
     ],
   };
   return (
-    <section className="section xl:gap-20 gap-10 w-full">
+    <section className="section xl:gap-20 gap-10 w-full relative">
+      <div className="absolute opacity-10 2xl:-left-[340px] 2xl:-bottom-[155px] -left-24 -bottom-32">
+        <h1 className="2xl:text-[250px] text-[200px]">
+          Naufal Art
+        </h1>
+      </div>
       <div className="sectionInfo xl:w-1/3 w-full">
         <div className="flex mb-8">
           <h1 className="text-7xl pr-2">Our Products</h1>

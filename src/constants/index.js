@@ -78,3 +78,26 @@ export const products = [
     },
 
 ];
+
+export const testimonials = [
+  {
+    name: "Park Chong Bok",
+    location: "Korea Selatan",
+    description: "Saya senang dengan produk dari Naufal Art karena dibentuk langsung oleh alam dan memiliki nilai seni yang tinggi, selain itu pelayanannya juga baik dan loyal. Saya sudah belanja di Naufal Art sejak tahun 2010."
+  },
+  {
+    name: "Devika Ramayanti",
+    location: "Bogor, Indonesia",
+    description: "Saya puas berbelanja kursi dan meja dari Naufal Art karena kualitasnya sangat baik dan harga yang bersahabat, pelayannan gratis antar Jabodetabek juga menguntungkan saya, terimakasih Naufal Art."
+  },
+  {
+    name: "Dickson",
+    location: "Jakarta, Indonesia",
+    description: "Produk Naufal Art berkualitas dan bagus. Pelayanan yang bersahabat dan baik oleh Bapak Asrul selaku pemilik juga sangat memuaskan dan membuat saya berlangganan disini."
+  },
+  {
+    name: "Lorem Ipsum",
+    location: "Lorem Ipsum",
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+];

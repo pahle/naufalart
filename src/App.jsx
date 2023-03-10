@@ -42,15 +42,9 @@ const App = () => {
         </div>
 
         <div className="paddingX flexStart">
-          <div className="boxWidth relative overflow-hidden">
-          <img
-            src="./icons/lines.svg"
-            alt="lines"
-            className="absolute top-16 w-full h-[calc(100%-5vh)] opacity-25 z-[-20] object-cover -xl:hidden"
-          />
+          <div className="boxWidth">
+          
             <About />
-            <Quality />
-            <Shipping />
           </div>
         </div>
 
