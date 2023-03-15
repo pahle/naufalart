@@ -100,7 +100,10 @@ const Products2 = () => {
             </div>
           ))}
         </Slider>
-        <hr className="border-t-2 2xl:w-[72%] xl:w-[68%] border-secondary/70 rounded-full -xl:hidden" />
+        <div className="flex">
+        <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/100 rounded-full -xl:hidden" />
+        <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/70 rounded-full -xl:hidden" />
+        </div>
       </div>
     </section>
   );

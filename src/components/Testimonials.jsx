@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Testimonials = () => {
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -54,9 +54,9 @@ const Testimonials = () => {
       <div>
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="h-80 border-2 border-secondary/10 shadow-sm bg-transparent rounded-xl p-4">
+            <div key={index} className="h-80 shadow-sm bg-transparent rounded-xl p-4">
               <div className="flex flex-col justify-between items-center h-full text-center">
-                <p className="text-xl">" {testimonial.description} "</p>
+                <p className="text-lg">" {testimonial.description} "</p>
                 <div className="text-center">
                   <h1 className="text-xl">{testimonial.name}</h1>
                   <p className="text-secondary">{testimonial.location}</p>

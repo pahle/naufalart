@@ -9,6 +9,8 @@ import {
   Shipping,
   Products2,
   Testimonials,
+  Contact,
+  Footer,
 } from "./components";
 
 const App = () => {
@@ -36,22 +38,25 @@ const App = () => {
         <div className="paddingX flexStart">
           <div className="boxWidth">
             <Benefits />
-            {/* <Products /> */}
+          </div>
+        </div>
+
+        <div className="paddingX flexStart">
+          <div className="boxWidth">
             <Products2 />
           </div>
         </div>
 
         <div className="paddingX flexStart">
           <div className="boxWidth">
-          
             <About />
+            <Testimonials />
+            <Contact />
           </div>
         </div>
 
-        <div className="paddingX flexStart">
-          <div className="boxWidth">
-            <Testimonials />
-          </div>
+        <div className="bg-black">
+          <Footer />
         </div>
       </div>
     </>

@@ -34,10 +34,10 @@ const About = () => {
       <img
             src="./icons/lines.svg"
             alt="lines"
-            className="absolute top-16 w-full h-[calc(100%-5vh)] opacity-25 z-[-20] object-cover -xl:hidden"
+            className="absolute top-16 w-full h-[calc(100%-5vh)] opacity-25  -z-10 object-cover -xl:hidden"
           />
-      <div className="flex sm:mt-16 mt-6 -xl:border-b-2 -xl:border-secondary/50">
-        <div className="sectionInfo xl:border-t-2 xl:border-l-2 border-black/100 rounded-tl-xl">
+      <div className="flex -xl:flex-col-reverse sm:mt-16 mt-6 -xl:border-2 rounded-xl -xl:border-secondary/50">
+        <div className="sectionInfo xl:border-t-2 xl:border-l-2 border-secondary/50 rounded-tl-xl">
           <div className="xl:p-28 p-4 text-justify flex flex-col xl:items-center">
             <h1 className="text-4xl mb-6 xl:text-center text-left">
               NaufalArt
@@ -72,23 +72,23 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="sectionImg -xl:hidden">
+        <div className="flex-1 flex flexCenter">
           <img
             src="./images/about2.jpg"
             alt="product"
-            className="w-full h-full aspect-square object-cover rounded-tr-xl rounded-bl-sm"
+            className="w-full h-full -xl:p-1 xl:aspect-square aspect-video object-cover -xl:rounded-2xl xl:rounded-tr-xl"
           />
         </div>
       </div>
-      <div className="flex -xl:border-b-2 -xl:border-secondary/50">
-        <div className="sectionImg -xl:hidden">
+      <div className="flex -xl:flex-col -xl:border-2 rounded-xl -xl:my-4 -xl:border-secondary/50">
+        <div className="flex-1 flex flexCenter">
           <img
             src="./images/about3.jpg"
             alt="product"
-            className="w-full h-full aspect-square object-cover rounded-tr-sm"
+            className="w-full h-full -xl:p-1 xl:aspect-square aspect-video object-cover -xl:rounded-2xl"
           />
         </div>
-        <div className="sectionInfo xl:border-r-2 border-black/100">
+        <div className="sectionInfo xl:border-r-2 border-secondary/50">
           <div className="xl:p-28 p-4 text-justify flex flex-col xl:items-center">
             <h1 className="text-4xl mb-6 xl:text-center text-left">
               Quality and Design
@@ -121,10 +121,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex sm:mb-16 mb-6 -xl:border-secondary/50">
-        <div className="sectionInfo xl:border-l-2 xl:border-b-2 border-black/100 rounded-bl-xl">
+      <div className="flex -xl:flex-col-reverse sm:mb-16 mb-6 -xl:border-2 rounded-xl -xl:border-secondary/50">
+        <div className="sectionInfo xl:border-l-2 xl:border-b-2 border-secondary/50 rounded-bl-xl">
           <div className="xl:p-28 p-4 text-justify flex flex-col xl:items-center">
-            <h1 className="text-4xl xl:text-center text-left mb-6">
+            <h1 className="xl:text-4xl text-[2rem] xl:text-center text-left mb-6">
               Shipping National and Globally
             </h1>
             <div className="2xl:text-xl text-lg">
@@ -148,11 +148,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="sectionImg -xl:hidden">
+        <div className="flex-1 flex flexCenter">
           <img
             src="./images/about4.jpg"
             alt="product"
-            className="w-full h-full aspect-square object-cover rounded-br-xl"
+            className="w-full h-full -xl:p-1 xl:aspect-square aspect-video object-cover -xl:rounded-2xl xl:rounded-br-xl"
           />
         </div>
       </div>

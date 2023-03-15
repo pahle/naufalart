@@ -7,5 +7,19 @@ import Quality from "./Quality";
 import Shipping from "./Shipping";
 import Products2 from "./Products2";
 import Testimonials from "./Testimonials";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
-export { Navbar, Hero, Benefits, Products, About, Quality, Shipping, Products2, Testimonials };
+export {
+  Navbar,
+  Hero,
+  Benefits,
+  Products,
+  About,
+  Quality,
+  Shipping,
+  Products2,
+  Testimonials,
+  Contact,
+  Footer,
+};

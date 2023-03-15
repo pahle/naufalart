@@ -10,6 +10,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-row">
             <h1 className="text-7xl my-5">
+              
               Living with nature every day
             </h1>
             <p className="text-secondary text-xl">(01)</p>
