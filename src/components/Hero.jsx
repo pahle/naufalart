@@ -5,21 +5,17 @@ const Hero = () => {
     <section className="section 2xl:py-10 py-6 items-center md:gap-20 gap-12 relative">
       <div className="w-full flex flex-col text-start text-black">
         <div>
-          <p className="md:text-xl text-lg text-secondary">
+          <p className="md:text-xl text-lg text-secondary font-poppins">
             Our Collection
           </p>
-          <div className="flex flex-row">
             <h1 className="text-7xl my-5">
-              
               Living with nature every day
             </h1>
-            <p className="text-secondary text-xl">(01)</p>
-          </div>
         </div>
         <a className="w-[150px]" href="#benefits">
           <div className="border-2 border-secondary rounded-lg p-2">
             <div className="border-2 border-secondary rounded-lg p-2 -mb-5 -mr-5">
-              <p className="text-center text-secondary mb-3 mr-2">
+              <p className="text-center mb-3 mr-2 font-poppins">
                 Get Started
               </p>
             </div>

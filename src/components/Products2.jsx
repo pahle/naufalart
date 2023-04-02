@@ -68,18 +68,15 @@ const Products2 = () => {
     ],
   };
   return (
-    <section className="section xl:gap-20 gap-10 w-full relative">
-      <div className="absolute opacity-10 2xl:-left-[340px] 2xl:-bottom-[149px] -left-24 -bottom-32">
+    <section id="products" className="section mb-8 xl:gap-20 gap-10 w-full relative">
+      {/* <div className="absolute opacity-10 2xl:-left-[340px] 2xl:-bottom-[149px] -left-24 -bottom-32">
         <h1 className="2xl:text-[280px] text-[200px]">
           Naufal Art
         </h1>
-      </div>
+      </div> */}
       <div className="sectionInfo xl:w-1/3 w-full">
-        <div className="flex mb-8">
-          <h1 className="text-7xl pr-2">Our Products</h1>
-          <p className="text-secondary text-xl">(03)</p>
-        </div>
-        <p className="2xl:text-xl text-lg text-justify">
+          <h1 className="text-7xl pr-2 mb-8">Our Products</h1>
+        <p className="md:text-lg text-md text-justify text-secondary font-poppins">
           Lorem ipsum dolor sit amet consectetur adipisicing
           elit. Aliquam amet eos nostrum repudiandae tenetur
           est id vitae ducimus optio nihil.
@@ -94,7 +91,7 @@ const Products2 = () => {
                 alt="product"
                 className="w-full xl:h-[350px] h-[250px] object-cover rounded-lg"
               />
-              <h1 className="my-4 text-lg text-center">
+              <h1 className="my-4 text-lg text-center text-secondary font-poppins">
                 {product.name}
               </h1>
             </div>

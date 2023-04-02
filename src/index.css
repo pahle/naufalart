@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,6 +11,9 @@
 }
 
 @layer base {
+  .font-poppins{
+    font-family: "Poppins", sans-serif !important;
+  }
   .boxWidth {
     @apply xl:max-w-7xl w-full;
   }
@@ -56,4 +60,20 @@
 }
 .slick-list {
   margin: 0 -10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #797979 !important;
+  opacity: 1; /* Firefox */
+  font-family: "Poppins", sans-serif !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #797979 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #797979 !important;
+  font-family: "Poppins", sans-serif !important;
 }

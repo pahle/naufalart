@@ -4,12 +4,9 @@ import { benefits } from "../constants";
 const Benefits = () => {
   return (
     <section id="benefits" className="paddingY flexCenter flex-col">
-      <div className="w-full flex justify-center md:mb-14 mb-8">
-        <h1 className="2xl:text-7xl text-6xl  pr-2">
+        <h1 className="2xl:text-7xl text-6xl md:mb-14 mb-8  pr-2">
           The Benefits of Naufal Art
         </h1>
-        <p className="text-secondary text-xl">(02)</p>
-      </div>
       <div className="flex md:flex-row flex-col gap-20">
         <div className="sectionImgReverse -md:hidden">
           <img
@@ -36,7 +33,7 @@ const Benefits = () => {
                   {benefit.title}
                 </h1>
               </div>
-              <p className="2xl:text-xl text-lg pt-4 text-justify">
+              <p className="md:text-lg text-md pt-4 text-justify text-secondary font-poppins">
                 {benefit.description}
               </p>
             </div>
