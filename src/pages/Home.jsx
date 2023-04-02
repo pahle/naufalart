@@ -4,11 +4,8 @@ import {
     Navbar,
     Hero,
     Benefits,
-    Products,
+    Product,
     About,
-    Quality,
-    Shipping,
-    Products2,
     Testimonials,
     Contact,
     Footer,
@@ -45,7 +42,7 @@ const Home = () => {
 
         <div className="paddingX flexStart">
           <div className="boxWidth">
-            <Products2 />
+            <Product />
           </div>
         </div>
 

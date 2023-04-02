@@ -28,7 +28,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-const Products2 = () => {
+const Product = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -106,4 +106,4 @@ const Products2 = () => {
   );
 };
 
-export default Products2;
+export default Product;

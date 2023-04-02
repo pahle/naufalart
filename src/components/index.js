@@ -1,11 +1,10 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Benefits from "./Benefits";
-import Products from "./Products";
 import About from "./About";
 import Quality from "./Quality";
 import Shipping from "./Shipping";
-import Products2 from "./Products2";
+import Product from "./Product";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -14,11 +13,10 @@ export {
   Navbar,
   Hero,
   Benefits,
-  Products,
   About,
   Quality,
   Shipping,
-  Products2,
+  Product,
   Testimonials,
   Contact,
   Footer,
