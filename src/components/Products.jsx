@@ -28,7 +28,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-const Product = () => {
+const Products = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -68,19 +68,31 @@ const Product = () => {
     ],
   };
   return (
-    <section id="products" className="section mb-8 xl:gap-20 gap-10 w-full relative">
+    <section
+      id="products"
+      className="section mb-8 xl:gap-20 gap-10 w-full relative"
+    >
       {/* <div className="absolute opacity-10 2xl:-left-[340px] 2xl:-bottom-[149px] -left-24 -bottom-32">
         <h1 className="2xl:text-[280px] text-[200px]">
           Naufal Art
         </h1>
       </div> */}
       <div className="sectionInfo xl:w-1/3 w-full">
-          <h1 className="text-7xl pr-2 mb-8">Our Products</h1>
+        <h1 className="text-7xl pr-2 mb-8">Our Products</h1>
         <p className="md:text-lg text-md text-justify text-secondary font-poppins">
           Lorem ipsum dolor sit amet consectetur adipisicing
           elit. Aliquam amet eos nostrum repudiandae tenetur
           est id vitae ducimus optio nihil.
         </p>
+        <a className="w-[150px] mt-8" href="product">
+          <div className="border-2 border-secondary rounded-lg p-2">
+            <div className="border-2 border-secondary rounded-lg p-2 -mb-5 -mr-5">
+              <p className="text-center mb-3 mr-2 font-poppins">
+                See More
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
       <div className="2xl:w-3/4 xl:w-2/3 w-full h-full 2xl:-mr-[420px] xl:-mr-48 relative pb-4">
         <Slider {...settings} className="relative">
@@ -98,12 +110,12 @@ const Product = () => {
           ))}
         </Slider>
         <div className="flex">
-        <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/100 rounded-full -xl:hidden" />
-        <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/70 rounded-full -xl:hidden" />
+          <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/100 rounded-full -xl:hidden" />
+          <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/70 rounded-full -xl:hidden" />
         </div>
       </div>
     </section>
   );
 };
 
-export default Product;
+export default Products;

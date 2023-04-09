@@ -4,7 +4,8 @@ import Benefits from "./Benefits";
 import About from "./About";
 import Quality from "./Quality";
 import Shipping from "./Shipping";
-import Product from "./Product";
+import Products from "./Products";
+import ProductList from "./ProductList";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -16,7 +17,8 @@ export {
   About,
   Quality,
   Shipping,
-  Product,
+  Products,
+  ProductList,
   Testimonials,
   Contact,
   Footer,

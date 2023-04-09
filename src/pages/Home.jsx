@@ -1,10 +1,8 @@
-import React from 'react'
-
 import {
     Navbar,
     Hero,
     Benefits,
-    Product,
+    Products,
     About,
     Testimonials,
     Contact,
@@ -42,7 +40,7 @@ const Home = () => {
 
         <div className="paddingX flexStart">
           <div className="boxWidth">
-            <Product />
+            <Products />
           </div>
         </div>
 

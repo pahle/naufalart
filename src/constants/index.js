@@ -101,3 +101,52 @@ export const testimonials = [
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   }
 ];
+
+export const productlist = [
+  {
+    name: "Kursi",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+  },
+  {
+    name: "Meja",
+    image: "./images/product2.JPG",
+    price: "Rp. 1.000.000",
+  },
+  {
+    name: "Lemari",
+    image: "./images/product3.JPG",
+    price: "Rp. 1.000.000",
+
+  },
+  {
+    name: "Kasur",
+    image: "./images/product4.JPG",
+    price: "Rp. 1.000.000",
+
+  },
+  {
+    name: "Lemari Pakaian",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+
+  },
+  {
+    name: "Lemari Buku",
+    image: "./images/product2.JPG",
+    price: "Rp. 1.000.000",
+
+  },
+  {
+    name: "Lemari Dapur",
+    image: "./images/product3.JPG",
+    price: "Rp. 1.000.000",
+
+  },
+  {
+    name: "Lemari Dapur",
+    image: "./images/product3.JPG",
+    price: "Rp. 1.000.000",
+
+  },
+];
