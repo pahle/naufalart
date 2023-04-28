@@ -11,7 +11,7 @@ const Navbar = () => {
       <a href="/" className="flex flex-row justify-center items-center gap-4">
         <img
           src='./images/logo.png'
-          alt="semnasif"
+          alt="naufalart"
           className="2xl:w-10 w-8"
         />
         <h1 className="text-3xl font-poppins font">Naufal Art</h1>

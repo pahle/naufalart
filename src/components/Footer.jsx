@@ -1,12 +1,11 @@
 import React from 'react'
-import { BiCopyright } from 'react-icons/bi'
 
 const Footer = () => {
   return (
     <section className="sm:pt-16 pt-16 pb-6 flex md:flex-row flex-col-reverse gap-10 justify-between items-center -md:text-center">
       <div>
       <h1 className='md:text-7xl text-6xl mb-4 font-poppins'>Naufal Art</h1>
-      <p className='md:text-lg font-poppins'><BiCopyright className='inline-block'/> Naufal Art - 2023 - All Rights Reserved</p>
+      <p className='md:text-lg font-poppins'>&copy; Naufal Art - 2023 - All Rights Reserved</p>
       </div>
       <div className='flex items-center md:gap-10 gap-5 -md:hidden'>
         <h3 className='text-lg font-poppins'>Ready to get started?</h3>

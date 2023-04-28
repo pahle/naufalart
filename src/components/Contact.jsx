@@ -1,6 +1,4 @@
 import React from "react";
-import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import {MdEmail} from "react-icons/md"
 
 const Contact = () => {
   return (
@@ -18,23 +16,20 @@ const Contact = () => {
               Tlk. Pinang, Kec. Ciawi, Kabupaten Bogor, Jawa
               Barat 16720
             </li>
-            <FaMapMarkerAlt className="xl:ml-4 mr-4 w-8 h-6" />
           </div>
           <div className="flex -xl:flex-row-reverse items-center">
             <li className="md:text-lg text-md text-secondary font-poppins">085319640735</li>
-            <FaPhoneAlt className="xl:ml-4 mr-4 w-5 h-6"/>
           </div>
           <div className="flex -xl:flex-row-reverse items-center">
           <li className="md:text-lg text-md text-secondary font-poppins">naufalart@gmail.com</li>
 
-            <MdEmail className="xl:ml-4 mr-4 w-5 h-6"/>
           </div>
         </ul>
       </div>
       <div className="h-full ">
           <img
             src="https://picsum.photos/500/600"
-            alt=""
+            alt="map"
             className="xl:hidden block"
           />
         </div>
@@ -42,7 +37,7 @@ const Contact = () => {
         <div className="h-full w-[80%] -ml-36 relative -xl:hidden">
           <img
             src="https://picsum.photos/500/600"
-            alt=""
+            alt="map"
             className="relative z-20"
           />
           <div className="w-full h-full bg-[#000103] absolute -bottom-4 -right-4 z-10"></div>

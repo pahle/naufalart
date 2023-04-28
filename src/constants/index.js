@@ -104,49 +104,111 @@ export const testimonials = [
 
 export const productlist = [
   {
-    name: "Kursi",
+    name: "Meja Bar",
     image: "./images/product1.JPG",
     price: "Rp. 1.000.000",
+    type: "kursi",
   },
   {
-    name: "Meja",
-    image: "./images/product2.JPG",
-    price: "Rp. 1.000.000",
-  },
-  {
-    name: "Lemari",
-    image: "./images/product3.JPG",
-    price: "Rp. 1.000.000",
-
-  },
-  {
-    name: "Kasur",
-    image: "./images/product4.JPG",
-    price: "Rp. 1.000.000",
-
-  },
-  {
-    name: "Lemari Pakaian",
+    name: "Meja Kaca Akar 1",
     image: "./images/product1.JPG",
     price: "Rp. 1.000.000",
-
+    type: "kursi",
   },
   {
-    name: "Lemari Buku",
-    image: "./images/product2.JPG",
+    name: "Meja Kaca Akar 2",
+    image: "./images/product1.JPG",
     price: "Rp. 1.000.000",
-
+    type: "kursi",
   },
   {
-    name: "Lemari Dapur",
-    image: "./images/product3.JPG",
+    name: "Meja Kaca Akar 3",
+    image: "./images/product1.JPG",
     price: "Rp. 1.000.000",
-
+    type: "kursi",
   },
   {
-    name: "Lemari Dapur",
-    image: "./images/product3.JPG",
+    name: "Meja Kaca Akar 4",
+    image: "./images/product1.JPG",
     price: "Rp. 1.000.000",
-
+    type: "kursi",
+  },
+  {
+    name: "Meja Kaca Akar 5",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Kaca Akar 6",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Makan 1",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Makan 2",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Makan 3",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Makan 4",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Makan 5",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Taman",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Teh 1",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Teh 2",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Teh 3",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Teh 4",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
+  },
+  {
+    name: "Meja Teh 5",
+    image: "./images/product1.JPG",
+    price: "Rp. 1.000.000",
+    type: "kursi",
   },
 ];

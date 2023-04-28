@@ -3,12 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { products } from "../constants";
+import { Link } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <img
       src="./icons/arrowright.svg"
+      alt="arrowright"
       className={`absolute z-20 xl:-bottom-3 -bottom-4 xl:right-40 right-[42%] w-6 h-6 cursor-pointer opacity-70`}
       style={{ ...style }}
       onClick={onClick}
@@ -21,6 +23,7 @@ function SamplePrevArrow(props) {
   return (
     <img
       src="./icons/arrowleft.svg"
+      alt="arrowleft"
       className={`absolute z-20 xl:-bottom-3 -bottom-4 xl:right-48 right-[51%] w-6 h-6 cursor-pointer opacity-70`}
       style={{ ...style }}
       onClick={onClick}
@@ -84,7 +87,7 @@ const Products = () => {
           elit. Aliquam amet eos nostrum repudiandae tenetur
           est id vitae ducimus optio nihil.
         </p>
-        <a className="w-[150px] mt-8" href="product">
+        <Link className="w-[150px] mt-8" href="product">
           <div className="border-2 border-secondary rounded-lg p-2">
             <div className="border-2 border-secondary rounded-lg p-2 -mb-5 -mr-5">
               <p className="text-center mb-3 mr-2 font-poppins">
@@ -92,7 +95,7 @@ const Products = () => {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="2xl:w-3/4 xl:w-2/3 w-full h-full 2xl:-mr-[420px] xl:-mr-48 relative pb-4">
         <Slider {...settings} className="relative">
@@ -100,7 +103,7 @@ const Products = () => {
             <div key={index} className="overflow-hidden">
               <img
                 src={product.image}
-                alt="product"
+                alt={product.name}
                 className="w-full xl:h-[350px] h-[250px] object-cover rounded-lg"
               />
               <h1 className="my-4 text-lg text-center text-secondary font-poppins">

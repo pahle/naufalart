@@ -1,8 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import { testimonials } from "../constants";
-import { RiDoubleQuotesL } from "react-icons/ri";
-import { FaBeer } from 'react-icons/fa';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
