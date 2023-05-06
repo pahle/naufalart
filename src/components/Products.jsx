@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { products } from "../constants";
-import { Link } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -87,15 +86,6 @@ const Products = () => {
           elit. Aliquam amet eos nostrum repudiandae tenetur
           est id vitae ducimus optio nihil.
         </p>
-        <Link className="w-[150px] mt-8" href="product">
-          <div className="border-2 border-secondary rounded-lg p-2">
-            <div className="border-2 border-secondary rounded-lg p-2 -mb-5 -mr-5">
-              <p className="text-center mb-3 mr-2 font-poppins">
-                See More
-              </p>
-            </div>
-          </div>
-        </Link>
       </div>
       <div className="2xl:w-3/4 xl:w-2/3 w-full h-full 2xl:-mr-[420px] xl:-mr-48 relative pb-4">
         <Slider {...settings} className="relative">
