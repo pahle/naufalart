@@ -32,7 +32,7 @@ const Hero = () => {
 
         </div> */}
         <video
-          src="./video/hero.mp4"
+          src="./video/hero.MP4"
           className="w-[646px] h-full object-cover rounded-xl"
           autoPlay
           loop
