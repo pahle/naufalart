@@ -26,7 +26,7 @@ const Navbar = () => {
               : "mr-10"
               }`}
           >
-            <a href={`/#${nav.link}`} className="font-poppins">{nav.name}</a>
+            <a href={`#${nav.link}`} className="font-poppins">{nav.name}</a>
           </li>
         ))}
       </ul>

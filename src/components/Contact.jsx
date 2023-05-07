@@ -28,7 +28,7 @@ const Contact = () => {
       </div>
       <div className="h-full ">
           <img
-            src="https://picsum.photos/500/600"
+            src="./images/maps.png"
             alt="map"
             className="xl:hidden block"
           />
@@ -36,7 +36,7 @@ const Contact = () => {
       <div className="xl:w-5/6 w-full h-full border-2 border-secondary/50 rounded-xl flex flex-row items-center">
         <div className="h-full w-[80%] -ml-36 relative -xl:hidden">
           <img
-            src="https://picsum.photos/500/600"
+            src="./images/maps.png"
             alt="map"
             className="relative z-20"
           />
