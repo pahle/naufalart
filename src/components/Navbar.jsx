@@ -14,7 +14,7 @@ const Navbar = () => {
           alt="naufalart"
           className="2xl:w-10 w-8"
         />
-        <h1 className="text-3xl font-poppins font">Naufal Art</h1>
+        <h1 className="text-3xl font">Naufal Art</h1>
       </a>
 
       <ul className="list-none md:flex hidden justify-end items-center">
@@ -26,7 +26,7 @@ const Navbar = () => {
               : "mr-10"
               }`}
           >
-            <a href={`#${nav.link}`} className="font-poppins">{nav.name}</a>
+            <a href={`#${nav.link}`}>{nav.name}</a>
           </li>
         ))}
       </ul>
@@ -54,7 +54,7 @@ const Navbar = () => {
                   }`}
                 onClick={() => setToggle((prev) => !prev)}
               >
-                <a href={`/#${nav.link}`} className="font-poppins">{nav.name}</a>
+                <a href={`/#${nav.link}`}>{nav.name}</a>
               </li>
             ))}
           </ul>

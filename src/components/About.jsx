@@ -7,12 +7,12 @@ const ReadMore = ({ children }) => {
     setIsReadMore(!isReadMore);
   };
   return (
-  <div className="md:text-lg text-md text-secondary font-poppins xl:hidden">
+  <div className="md:text-lg text-md text-secondary xl:hidden">
       {isReadMore ? text.slice(0, 40) : text}
       <span>{isReadMore ? ". . . " : ""}</span>
       <div
         onClick={toggleReadMore}
-        className="cursor-pointer font-semibold text-justify md:text-lg text-md text-secondary font-poppins"
+        className="cursor-pointer font-semibold text-justify md:text-lg text-md text-secondary"
       >
         {isReadMore ? "Read More" : "Show Less"}
       </div>
@@ -38,14 +38,14 @@ const About = () => {
             <h1 className="text-4xl mb-6 xl:text-center text-left">
               NaufalArt
             </h1>
-            <div className="md:text-lg text-md text-secondary font-poppins">
+            <div className="md:text-lg text-md text-secondary">
               Naufal Art merupakan perusahaan pribadi yang
               berdiri pada tahun 2004. Perusahaan ini
               bergerak di bidang kayu, batu, serta furniture
               yang memiliki konsep seni alam.
               <br />
               <br />
-              <div className="-xl:hidden md:text-lg text-md text-secondary font-poppins">
+              <div className="-xl:hidden md:text-lg text-md text-secondary">
                 Furniture yang diproduksi oleh Naufal Art
                 berasal dari akar pohon kayu pilihan yang
                 berusia ratusan tahun. Kayu yang digunakan
@@ -90,14 +90,14 @@ const About = () => {
               Quality and Design
             </h1>
 
-            <div className="md:text-lg text-md text-secondary font-poppins">
+            <div className="md:text-lg text-md text-secondary">
               Proses produksi dikerjakan oleh tangan-tangan
               yang terampil di workshop kami. Proses
               pembuatan dimulai dari pemilihan kayu yang
               berusia tua dan mempunyai bentuk yang unik.
               <br />
               <br />
-              <div className="-xl:hidden md:text-lg text-md text-secondary font-poppins">
+              <div className="-xl:hidden md:text-lg text-md text-secondary">
                 Selanjutnya produk dibentuk sesuai dengan
                 fungsinya tetapi tetap mengikuti bentuk asal
                 kayu yang menjadikan produk memiliki nilai
@@ -123,13 +123,13 @@ const About = () => {
             <h1 className="xl:text-4xl text-[2rem] xl:text-center text-left mb-6">
               Shipping National and Globally
             </h1>
-            <div className="md:text-lg text-md text-secondary font-poppins">
+            <div className="md:text-lg text-md text-secondary">
               Sejak berdiri, Naufal Art berorientasi pada
               pasar ekspor. Negara tujuan ekspor kami yaitu
               Korea, Dubai, Inggris, dan Amerika.
               <br />
               <br />
-              <div className="-xl:hidden md:text-lg text-md text-secondary font-poppins">
+              <div className="-xl:hidden md:text-lg text-md text-secondary">
                 Namun, kami juga memiliki jasa antar ke
                 seluruh Indonesia untuk menjangkau pasar
                 lokal yang saat ini sudah mengalami

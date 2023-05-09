@@ -51,10 +51,10 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="h-80 shadow-sm bg-transparent rounded-xl p-4">
               <div className="flex flex-col justify-between items-center h-full text-center">
-                <p className="md:text-lg text-md text-secondary font-poppins">" {testimonial.description} "</p>
+                <p className="md:text-lg text-md text-secondary">" {testimonial.description} "</p>
                 <div className="text-center">
                   <h1 className="text-xl">{testimonial.name}</h1>
-                  <p className="text-secondary font-poppins text-md">{testimonial.location}</p>
+                  <p className="text-secondary text-md">{testimonial.location}</p>
                 </div>
               </div>
             </div>

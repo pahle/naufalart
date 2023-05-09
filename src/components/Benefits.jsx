@@ -33,7 +33,7 @@ const Benefits = () => {
                   {benefit.title}
                 </h1>
               </div>
-              <p className="md:text-lg text-md pt-4 text-justify text-secondary font-poppins">
+              <p className="md:text-lg text-md pt-4 text-justify text-secondary">
                 {benefit.description}
               </p>
             </div>

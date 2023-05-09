@@ -11,17 +11,17 @@ const Contact = () => {
         </h1>
         <ul className="flex flex-col xl:items-end items-start items gap-4 xl:text-right text-left">
           <div className="flex -xl:flex-row-reverse items-center">
-            <li className="md:text-lg text-md text-secondary font-poppins">
+            <li className="md:text-lg text-md text-secondary">
               Jl. Raya Sukaraja - Sukabumi <br /> No.16,
               Tlk. Pinang, Kec. Ciawi, Kabupaten Bogor, Jawa
               Barat 16720
             </li>
           </div>
           <div className="flex -xl:flex-row-reverse items-center">
-            <li className="md:text-lg text-md text-secondary font-poppins">085319640735</li>
+            <li className="md:text-lg text-md text-secondary">085319640735</li>
           </div>
           <div className="flex -xl:flex-row-reverse items-center">
-          <li className="md:text-lg text-md text-secondary font-poppins">naufalart@gmail.com</li>
+          <li className="md:text-lg text-md text-secondary">naufalart@gmail.com</li>
 
           </div>
         </ul>
@@ -67,7 +67,7 @@ const Contact = () => {
               placeholder="Message"
               className="border-2 border-secondary/50 p-2 rounded-lg color"
             ></textarea>
-            <button type="submit" className="border-2 border-secondary/50 hover:border-secondary transition-all duration-500 rounded-lg w-1/4 self-center p-2 font-poppins">Send</button>
+            <button type="submit" className="border-2 border-secondary/50 hover:border-secondary transition-all duration-500 rounded-lg w-1/4 self-center p-2">Send</button>
           </form>
         </div>
       </div>

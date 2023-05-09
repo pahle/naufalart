@@ -81,7 +81,7 @@ const Products = () => {
       </div> */}
       <div className="sectionInfo xl:w-1/3 w-full">
         <h1 className="text-7xl pr-2 mb-8">Our Products</h1>
-        <p className="md:text-lg text-md text-justify text-secondary font-poppins">
+        <p className="md:text-lg text-md text-justify text-secondary">
           Lorem ipsum dolor sit amet consectetur adipisicing
           elit. Aliquam amet eos nostrum repudiandae tenetur
           est id vitae ducimus optio nihil.
@@ -96,7 +96,7 @@ const Products = () => {
                 alt={product.name}
                 className="w-full xl:h-[350px] h-[250px] object-cover rounded-lg"
               />
-              <h1 className="my-4 text-lg text-center text-secondary font-poppins">
+              <h1 className="my-4 text-lg text-center text-secondary">
                 {product.name}
               </h1>
             </div>
