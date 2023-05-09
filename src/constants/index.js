@@ -45,36 +45,52 @@ export const benefits = [
 
 export const products = [
     {
-        name: "Kursi",
-        image: "./images/product1.JPG",
-    },
-    {
         name: "Meja",
-        image: "./images/product2.JPG",
+        image: "./images/meja.JPG",
     },
     {
-        name: "Lemari",
-        image: "./images/product3.JPG",
+        name: "Kursi",
+        image: "./images/kursi.JPG",
     },
     {
-        name: "Kasur",
-        image: "./images/product4.JPG",
+        name: "Cermin",
+        image: "./images/cermin.JPG",
     },
     {
-        name: "Lemari Pakaian",
-        image: "./images/product1.JPG",
+        name: "Capstock",
+        image: "./images/capstock.JPG",
     },
     {
-        name: "Lemari Buku",
-        image: "./images/product2.JPG",
+        name: "Basetray",
+        image: "./images/basetray.JPG",
     },
     {
-        name: "Lemari Dapur",
-        image: "./images/product3.JPG",
+        name: "Batu Fosil",
+        image: "./images/batufosil.JPG",
     },
     {
-        name: "Lemari Dapur",
-        image: "./images/product3.JPG",
+        name: "Hiasan",
+        image: "./images/hiasan.JPG",
+    },
+    {
+        name: "Batu Suiseki",
+        image: "./images/batusuiseki.JPG",
+    },
+    {
+        name: "Nampan",
+        image: "./images/nampan.JPG",
+    },
+    {
+        name: "Tempat Buah",
+        image: "./images/tempatbuah.JPG",
+    },
+    {
+        name: "Jam",
+        image: "./images/jam.JPG",
+    },
+    {
+        name: "Asbak",
+        image: "./images/asbak.JPG",
     },
 
 ];

@@ -36,7 +36,7 @@ const Products = () => {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    focusOnSelect: true,
+    focusOnSelect: false,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -74,17 +74,10 @@ const Products = () => {
       id="products"
       className="section mb-8 xl:gap-20 gap-10 w-full relative"
     >
-      {/* <div className="absolute opacity-10 2xl:-left-[340px] 2xl:-bottom-[149px] -left-24 -bottom-32">
-        <h1 className="2xl:text-[280px] text-[200px]">
-          Naufal Art
-        </h1>
-      </div> */}
       <div className="sectionInfo xl:w-1/3 w-full">
         <h1 className="text-7xl pr-2 mb-8">Our Products</h1>
         <p className="md:text-lg text-md text-justify text-secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Aliquam amet eos nostrum repudiandae tenetur
-          est id vitae ducimus optio nihil.
+          Terdapat berbagai macam produk yang kami tawarkan, mulai dari meja, kursi, cermin, dan lain-lain. Kami juga menerima pesanan custom sesuai dengan keinginan anda.
         </p>
       </div>
       <div className="2xl:w-3/4 xl:w-2/3 w-full h-full 2xl:-mr-[420px] xl:-mr-48 relative pb-4">
