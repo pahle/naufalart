@@ -46,51 +46,51 @@ export const benefits = [
 export const products = [
     {
         name: "Meja",
-        image: "./images/meja.JPG",
+        image: "./images/meja.webp",
     },
     {
         name: "Kursi",
-        image: "./images/kursi.JPG",
+        image: "./images/kursi.webp",
     },
     {
         name: "Cermin",
-        image: "./images/cermin.JPG",
+        image: "./images/cermin.webp",
     },
     {
         name: "Capstock",
-        image: "./images/capstock.JPG",
+        image: "./images/capstock.webp",
     },
     {
         name: "Basetray",
-        image: "./images/basetray.JPG",
+        image: "./images/basetray.webp",
     },
     {
         name: "Batu Fosil",
-        image: "./images/batufosil.JPG",
+        image: "./images/batufosil.webp",
     },
     {
         name: "Hiasan",
-        image: "./images/hiasan.JPG",
+        image: "./images/hiasan.webp",
     },
     {
         name: "Batu Suiseki",
-        image: "./images/batusuiseki.JPG",
+        image: "./images/batusuiseki.webp",
     },
     {
         name: "Nampan",
-        image: "./images/nampan.JPG",
+        image: "./images/nampan.webp",
     },
     {
         name: "Tempat Buah",
-        image: "./images/tempatbuah.JPG",
+        image: "./images/tempatbuah.webp",
     },
     {
         name: "Jam",
-        image: "./images/jam.JPG",
+        image: "./images/jam.webp",
     },
     {
         name: "Asbak",
-        image: "./images/asbak.JPG",
+        image: "./images/asbak.webp",
     },
 
 ];
