@@ -52,9 +52,8 @@ const Products = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          dots: true,
-          nextArrow: "",
-          prevArrow: "",
+          extArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         },
       },
       {
@@ -62,9 +61,8 @@ const Products = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          dots: true,
-          nextArrow: "",
-          prevArrow: "",
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         },
       },
     ],
@@ -77,7 +75,10 @@ const Products = () => {
       <div className="sectionInfo xl:w-1/3 w-full">
         <h1 className="text-7xl pr-2 mb-8">Our Products</h1>
         <p className="md:text-lg text-md text-justify text-secondary">
-          Terdapat berbagai macam produk yang kami tawarkan, mulai dari meja, kursi, cermin, dan lain-lain. Kami juga menerima pesanan custom sesuai dengan keinginan anda.
+          Terdapat berbagai macam produk yang kami tawarkan,
+          mulai dari meja, kursi, cermin, dan lain-lain.
+          Kami juga menerima pesanan custom sesuai dengan
+          keinginan anda.
         </p>
       </div>
       <div className="2xl:w-3/4 xl:w-2/3 w-full h-full 2xl:-mr-[420px] xl:-mr-48 relative pb-4">
