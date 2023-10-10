@@ -31,8 +31,8 @@ const Hero = () => {
         <video
           src="./video/hero.mp4"
           className="w-[646px] h-full object-cover rounded-xl"
-          controls={false}
           autoPlay
+          muted
           loop
         />
       </div>
