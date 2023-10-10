@@ -8,9 +8,9 @@ const Hero = () => {
           <p className="md:text-xl text-lg text-secondary">
             Our Collection
           </p>
-            <h1 className="text-7xl my-5">
-              Living with nature every day
-            </h1>
+          <h1 className="text-7xl my-5">
+            Living with nature every day
+          </h1>
         </div>
         <a className="w-[150px]" href="#benefits">
           <div className="border-2 border-secondary rounded-lg p-2">
@@ -31,9 +31,9 @@ const Hero = () => {
         <video
           src="./video/hero.mp4"
           className="w-[646px] h-full object-cover rounded-xl"
-          autoPlay
-          loop
-          playsInline
+          autoPlay={true}
+          loop={true}
+          muted={true}
         />
       </div>
     </section>
