@@ -33,6 +33,7 @@ const Hero = () => {
           className="w-[646px] h-full object-cover rounded-xl"
           autoPlay
           muted
+          playsInline
           loop
         />
       </div>
