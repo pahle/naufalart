@@ -10,7 +10,7 @@ function SampleNextArrow(props) {
     <img
       src="./icons/arrowright.svg"
       alt="arrowright"
-      className={`absolute z-20 xl:-bottom-3 -bottom-4 xl:right-40 right-[42%] w-6 h-6 cursor-pointer opacity-70`}
+      className={`absolute z-20 xl:-bottom-3 -bottom-4 2xl:right-[23rem] xl:right-40 right-[42%] w-6 h-6 cursor-pointer opacity-70`}
       style={{ ...style }}
       onClick={onClick}
     />
@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
     <img
       src="./icons/arrowleft.svg"
       alt="arrowleft"
-      className={`absolute z-20 xl:-bottom-3 -bottom-4 xl:right-48 right-[51%] w-6 h-6 cursor-pointer opacity-70`}
+      className={`absolute z-20 xl:-bottom-3 -bottom-4 2xl:right-[25rem] xl:right-48 right-[51%] w-6 h-6 cursor-pointer opacity-70`}
       style={{ ...style }}
       onClick={onClick}
     />
@@ -97,8 +97,8 @@ const Products = () => {
           ))}
         </Slider>
         <div className="flex">
-          <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/100 rounded-full -xl:hidden" />
-          <hr className="border-t-2 2xl:w-[36%] xl:w-[34%] border-secondary/70 rounded-full -xl:hidden" />
+          <hr className="border-t-2 2xl:w-[26%] xl:w-[34%] border-secondary/100 rounded-full -xl:hidden" />
+          <hr className="border-t-2 2xl:w-[26%] xl:w-[34%] border-secondary/70 rounded-full -xl:hidden" />
         </div>
       </div>
     </section>

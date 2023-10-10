@@ -1,4 +1,5 @@
 import React from "react";
+import { contact } from "../constants";
 
 const Contact = () => {
   return (
@@ -12,43 +13,40 @@ const Contact = () => {
           <br className="-xl:hidden" /> Us
         </h1>
         <ul className="flex flex-col xl:items-end items-start items gap-4 xl:text-right text-left">
-          <li className="flex -xl:flex-row-reverse items-center">
-            <div className="md:text-lg text-md text-secondary">
-              <p className="text-sm font-semibold">Address :</p>
-              Jl. Raya Sukaraja - Sukabumi <br /> No.16,
-              Tlk. Pinang, Kec. Ciawi, Kabupaten Bogor, Jawa
-              Barat 16720
-            </div>
-          </li>
-          <li className="flex -xl:flex-row-reverse items-center">
-            <div className="md:text-lg text-md text-secondary">
-              <p className="text-sm font-semibold">Phone :</p>
-              085319640735
-            </div>
-          </li>
-          <li className="flex -xl:flex-row-reverse items-center">
-            <div className="md:text-lg text-md text-secondary">
-              <p className="text-sm font-semibold">Email :</p>
-              naufal.gallery@gmail.com
-            </div>
-          </li>
+          {contact.map((contact, index) => (
+            <li key={index} className="flex -xl:flex-row-reverse items-center">
+              <div>
+                <div className="md:text-lg text-md text-secondary">
+                  <p className="text-sm font-semibold">
+                    {contact.name}
+                  </p>
+                  {contact.value}
+                </div>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="h-full">
         <img
           src="./images/maps.png"
           alt="map"
-          className="xl:hidden block rounded-xl"
+          className="xl:hidden block rounded-xl w-full"
         />
       </div>
       <div className="xl:w-5/6 w-full h-full border-2 border-secondary/50 rounded-xl flex flex-row items-center">
         <div className="h-full w-[80%] -ml-36 relative -xl:hidden">
-          <img
-            src="./images/maps.png"
-            alt="map"
-            className="relative z-20"
-          />
-          <div className="w-full h-full bg-[#000103] absolute -bottom-4 -right-4 z-10"></div>
+          <a
+            href="https://goo.gl/maps/jJPqdiyiXdfBELLc8"
+            target="_blank"
+          >
+            <img
+              src="./images/maps.png"
+              alt="map"
+              className="relative z-20 rounded-xl"
+            />
+          </a>
+          <div className="w-full h-full bg-[#000103] absolute -bottom-4 -right-4 z-10 rounded-xl"></div>
         </div>
         <div className="w-full xl:p-12 p-6">
           <h1 className="xl:hidden block text-4xl text-center mb-6">

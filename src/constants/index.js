@@ -228,3 +228,18 @@ export const productlist = [
     type: "kursi",
   },
 ];
+
+export const contact = [
+  {
+    name: "Address",
+    value: "Jl. Raya Sukaraja - Sukabumi No.16, Tlk. Pinang, Kec. Ciawi, Kabupaten Bogor, Jawa Barat 16720",
+  },
+  {
+    name: "Phone",
+    value: "+62 8531-9640-735",
+  },
+  {
+    name: "Email",
+    value: "naufal.gallery@gmail.com",
+  },
+];
